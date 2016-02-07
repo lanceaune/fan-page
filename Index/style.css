@@ -1,0 +1,10 @@
+body { background-color: #0000FF;
+      color: #FFFFFF; 
+    font-family: "Franklin Gothic Medium","Franklin Gothic","ITC Franklin Gothic",Arial,sans-serif}
+h1, h2 { background-color:chartreuse; color:chocolate;
+    font-family: monospace; }
+footer { color:darkorange; }
+ol { color:firebrick; }
+.special { color:darkmagenta; }
+footer { font-size: .80em; } 
+ol { list-style-type: upper-alpha; }

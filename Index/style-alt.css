@@ -1,0 +1,13 @@
+body { background-color: #ff4500;
+      color: #FFFFFF; 
+    background-image: url(plane.jpg); 
+    font-family: "Arial Black","Arial Bold",Gadget,sans-serif}
+h1, h2 { background-color:#00ff45; color:#1ed23a;
+    font-family: cursive; }
+footer { color:darkorange; }
+ol { color:#2286b2; }
+.special { color:#8b004b; }
+footer { font-size: .80em; 
+        font-style: italic; } 
+ol { list-style-type: square; }
+p { background-color: blue; }
