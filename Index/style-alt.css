@@ -2,19 +2,16 @@ body {
     background-color: #ff4500;
     color: #FFFFFF;
     background-image: url(plane.jpg);
-    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
 }
 
 #container {
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
+    margin: auto width: 80%;
     background-color: #FFFFFF;
-    min-width: 650px;
-    max-width: 1280px;
     box-shadow: 3px 3px 3px #333;
     text-shadow: 6px 6px 6px;
-    padding: 60px
+    padding: 10px;
+    min-width: 940px;
 }
 
 h1 {
@@ -24,7 +21,7 @@ h1 {
     font-family: cursive;
     background-color: cornflowerblue;
     background-image: url(mig23.jpg);
-    border-radius: 15px;
+    width: 100%;
 }
 
 h2 {
@@ -38,30 +35,62 @@ p {
     border-style: double;
     border-radius: 15px;
     opacity: 0.6;
+    background-color: blue;
 }
 
 footer {
     color: darkorange;
-    text-align-last: center;
+    text-align: center;
+    font-size: .80em;
+    font-style: italic;
 }
 
 ol {
     color: #2286b2;
+    list-style-type: square;
 }
 
 .special {
     color: #8b004b;
 }
 
-footer {
-    font-size: .80em;
-    font-style: italic;
-}
-
-ol {
-    list-style-type: square;
-}
-
-p {
+nav {
+    float: left;
+    width: 150px;
+    text-decoration: none;
     background-color: blue;
+    padding: 10px;
+    margin-top: 25px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:link {
+    color: #44be69;
+}
+
+nav a:visited {
+    color: #f22727;
+}
+
+nav a:hover {
+    color: black;
+}
+
+nav li {
+    display: inline;
+}
+
+main {
+    margin-left: 165px;
+    padding: 10px;
+}
+
+footer {
+    margin-left: 165px;
+}
+
+
 }

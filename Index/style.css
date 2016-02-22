@@ -33,6 +33,7 @@ h2 {
     font-family: monospace;
     padding-left: 60px;
     background-image: linear-gradient(to botom, #FFFFFF, #DA70Dg);
+    font-variant-caps: normal;
 }
 
 p {
@@ -41,20 +42,14 @@ p {
 
 footer {
     color: darkorange;
-}
-
-ol {
-    color: firebrick;
-}
-
-.special {
-    color: darkmagenta;
-}
-
-footer {
     font-size: .80em;
 }
 
 ol {
-    list-style-type: upper-alpha;
+    color: firebrick;
+    list-style-type: upper-alpha:
+}
+
+.special {
+    color: darkmagenta;
 }
