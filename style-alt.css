@@ -1,27 +1,18 @@
 body {
     background-color: #ff4500;
     color: #FFFFFF;
-    background-image: url(plane.jpg);
+    background-image: url(images/plane.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
-}
-
-#container {
-    margin: auto width: 80%;
-    background-color: #FFFFFF;
-    box-shadow: 3px 3px 3px #333;
-    text-shadow: 6px 6px 6px;
-    padding: 10px;
-    min-width: 940px;
 }
 
 h1 {
     background-color: #00ff45;
-    background-repeat: no-repeat;
-    color: #1ed23a;
+    color: white;
     font-family: cursive;
     background-color: cornflowerblue;
-    background-image: url(mig23.jpg);
-    width: 100%;
+    text-align: center;
 }
 
 h2 {
@@ -84,13 +75,63 @@ nav li {
 }
 
 main {
-    margin-left: 165px;
-    padding: 10px;
+    margin: auto;
 }
 
 footer {
     margin-left: 165px;
 }
 
+header,
+main,
+nav,
+footer,
+section,
+article,
+figure,
+figcaption,
+aside {
+    display: block;
+}
 
+@media only screen and (max-width: 1024px) {
+    main {
+        margin-left: 0;
+    }
+    nav {
+        float: none;
+        width: auto;
+    }
+    body {
+        margin: 0;
+    }
+    nav {
+        display: inline-block;
+    }
+}
+
+h1,
+h2 {
+    font-size: 120%;
+}
+
+p {
+    font-size: 90%;
+}
+
+@media only screen and (max-width:768px) {
+    h1,
+    h2 {
+        font-size: 100%;
+    }
+    span {
+        font-size: 80%;
+    }
+    figure {
+        display: none;
+    }
+    nav {
+        padding: 0;
+        display: block;
+    }
 }
